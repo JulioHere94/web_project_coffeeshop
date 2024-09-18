@@ -213,7 +213,7 @@
   margin-bottom: 0;
 }
 
-.reservation__form__conatiner {
+.reservation__form__fieldset {
   margin: 0;
   padding: 0;
   max-width: 385px;
@@ -229,7 +229,7 @@
   margin-bottom: 120px;
 }
 
-.reservation__form__label {
+.reservation__form__fieldset__label {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -238,7 +238,7 @@
   text-align: left;
 }
 
-.reservation__form__item {
+.reservation__form__fieldset__item {
   border-radius: 4px;
   width: 100%;
   margin-top: 8px;
@@ -264,7 +264,7 @@
   color: #ffffff;
 }
 
-.reservation__form__item::placeholder {
+.reservation__form__fieldset__item::placeholder {
   padding-left: 20px;
   padding-top: 15px;
   font-family: Inter;

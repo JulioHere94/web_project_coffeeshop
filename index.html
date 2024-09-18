@@ -95,7 +95,7 @@
                 allowfullscreen
               ></iframe>
               <p class="recipes__video-caption">
-                Receita de Prensa Francesa<span class="recipes__video-caption"
+                Receita Aeropress<span class="recipes__video-caption"
                   >~15 min</span
                 >
               </p>
@@ -105,39 +105,41 @@
         <section id="reservation" class="reservation">
           <h3 class="reservation__title">Reservar uma mesa</h3>
           <form class="reservation__form">
-            <fieldset class="reservation__form__conatiner">
-              <label class="reservation__form__label" for="nome">Nome:</label>
+            <fieldset class="reservation__form__fieldset">
+              <label class="reservation__form__fieldset__label" for="nome"
+                >Nome:</label
+              >
               <input
-                class="reservation__form__item form__item_el_nome"
+                class="reservation__form__fieldset__item form__item_el_nome"
                 type="text"
                 placeholder="Nome"
                 id="nome"
               />
-              <label class="reservation__form__label" for="convidados"
+              <label class="reservation__form__fieldset__label" for="convidados"
                 >Número de convidados:</label
               >
               <input
-                class="reservation__form__item form__item_el_convidados"
+                class="reservation__form__fieldset__item form__item_el_convidados"
                 type="number"
                 placeholder="1-8"
                 id="convidados"
                 min="1"
                 max="8"
               />
-              <label class="reservation__form__label" for="data"
+              <label class="reservation__form__fieldset__label" for="data"
                 >Data e hora:</label
               >
               <input
-                class="reservation__form__item form__item_el_data"
+                class="reservation__form__fieldset__item form__item_el_data"
                 type="datetime-local"
                 id="data"
                 placeholder="mm/dd/aaaa"
               />
-              <label class="reservation__form__label" for="email"
+              <label class="reservation__form__fieldset__label" for="email"
                 >Seu e-mail:</label
               >
               <input
-                class="reservation__form__item form__item_el_email"
+                class="reservation__form__fieldset__item form__item_el_email"
                 type="email"
                 id="email"
                 placeholder="email@email.com"
@@ -146,7 +148,7 @@
                 Reservar uma mesa
               </button>
               <label
-                class="reservation__form__label reservation__form__label-checkbox"
+                class="reservation__form__fieldset__label reservation__form__label-checkbox"
               >
                 <input
                   class="form__item form__item_el_termo-uso"
