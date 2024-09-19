@@ -241,9 +241,9 @@
   margin-top: 8px;
   margin-bottom: 32px;
   height: 60px;
-  padding: 0;
   border-color: #838383;
   box-sizing: border-box;
+  padding: 20px 15px;
 }
 
 .form__button {
@@ -262,15 +262,13 @@
 }
 
 .form__input::placeholder {
-  padding-left: 20px;
-  padding-top: 15px;
   font-family: Inter;
 }
 
 .form__button:hover {
 }
 
-.reservation__form__label-checkbox {
+.form__label-checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
