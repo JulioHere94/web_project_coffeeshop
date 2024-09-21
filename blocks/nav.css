@@ -4,6 +4,7 @@
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 80px;
+  list-style: none;
 }
 
 .nav__logo {
@@ -16,6 +17,20 @@
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
+}
+
+.nav__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
 
 .nav__link {

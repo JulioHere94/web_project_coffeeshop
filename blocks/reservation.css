@@ -11,6 +11,7 @@
   background-position: center;
   color: white;
   color: #000000;
+  z-index: 2;
 }
 
 .reservation__title {
