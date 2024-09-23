@@ -67,6 +67,9 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  cursor: pointer;
+  list-style-type: none;
+  color: #ffff;
 }
 
 .footer__social-link:focus {
